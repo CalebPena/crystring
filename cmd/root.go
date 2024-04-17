@@ -42,6 +42,7 @@ crystring <lenght=16>
 			return err
 		}
 
+		fmt.Println("copied to clipboard")
 		return clipboard.WriteAll(password)
 	},
 }
