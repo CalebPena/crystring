@@ -47,7 +47,7 @@ crystring <lenght=16>
 	},
 }
 
-const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_!@#$%^&*()[]{}:<>,./?\"';`~"
+const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_"
 
 func genPass(length int) (string, error) {
 	password := ""
